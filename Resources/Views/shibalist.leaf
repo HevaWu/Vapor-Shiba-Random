@@ -1,0 +1,13 @@
+#extend("base"):
+    #export("title"):
+    Hi, Shiba List!
+    #endexport
+
+    #export("body"):
+        #for(url in shibaLists):
+            <li>
+            <a href=#(url.urlString)>#(url.urlString)</a>
+            </li>
+        #endfor
+    #endexport
+#endextend
