@@ -6,7 +6,7 @@
 </head>
 
 <body>
-    <h1>Hello! #import("title")</h1>
+    <h1>#import("title")</h1>
     #import("body")
 </body>
 

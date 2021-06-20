@@ -1,6 +1,6 @@
 #extend("base"):
     #export("title"):
-    It works!
+    Hello! It works!
     #endexport
 
     #export("body"):
