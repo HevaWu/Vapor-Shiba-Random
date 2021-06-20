@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>#get(title)</title>
-    <link rel="stylesheet" href="/styles/app.css">
+    <title>#import("title")</title>
+    <link rel="stylesheet" href="/styles/syntax.css">
 </head>
+
 <body>
-    #get(body)
+    <h1>Hello! #import("title")</h1>
+    #import("body")
 </body>
+
 </html>

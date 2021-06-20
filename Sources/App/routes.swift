@@ -12,4 +12,8 @@ func routes(_ app: Application) throws {
     app.get("index") { req in
         return req.view.render("index", ["title": "Hello Vapor!"])
     }
+    
+    app.get("welcome") { req in
+        return req.view.render("welcome")
+    }
 }
