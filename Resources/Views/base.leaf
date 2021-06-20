@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>#import("title")</title>
+    <link rel="stylesheet" href="/styles/syntax.css">
+</head>
+
+<body>
+    <h1>Hello! #import("title")</h1>
+    #import("body")
+</body>
+
+</html>
