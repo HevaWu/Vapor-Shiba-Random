@@ -7,10 +7,6 @@
 
 import Foundation
 
-struct ShibaImageURLList: Codable {
-    var shibaLists: [ShibaImageURL] = [
-        ShibaImageURL(urlString: "https://shibe.online/"),
-        ShibaImageURL(urlString: "https://shibe.online/"),
-        ShibaImageURL(urlString: "https://shibe.online/")
-    ]
+struct ShibaImageURLList {
+    let list: [ShibaImageURL]
 }

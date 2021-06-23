@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct ShibaImageURL: Codable {
+struct ShibaImageURL {
     let urlString: String
 }
