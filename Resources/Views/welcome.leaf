@@ -4,8 +4,8 @@
     #endexport
 
     #export("body"):
-        <div class="welcome">
-            <img src="/images/hello.png">
+        <div class="image w3-container w3-margin">
+            <img class="w3-round" src="/images/hello.png">
         </div>
     #endexport
 #endextend
