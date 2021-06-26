@@ -19,4 +19,6 @@ func routes(_ app: Application) throws {
     
     let shibaController = ShibaController()
     app.get("shibalist", use: shibaController.index(req:))
+    
+    app.post("shibalist-submit", use: shibaController.postParams(req:))
 }

@@ -1,0 +1,22 @@
+#extend("shibalistBase"):
+    #export("body"):
+        <div class="sbl-content w3-container w3-margin">
+            <div class="w3-left-align">
+            <h3>Please input required attribute.</h3>
+            </div>
+
+            <form class="w3-container" action="/shibalist-submit" method="post">
+                <label for="count">count:</label>
+                <input class="w3-input w3-border w3-round w3-animate-input" type="text" id="count" name="count" placeholder="The number of images to be returned. Default is 1. Possible Values: integers 1-100">
+                <br>
+                <label for="urls">urls:</label>
+                <input class="w3-input w3-border w3-round w3-animate-input" type="text" id="urls" name="urls" placeholder="Should the API return URLs or filenames without extensions? URLs are the default. Possible Values: Should the API return URLs or filenames without extensions? URLs are the default.">
+                <br>
+                <label for="httpsUrls">httpsUrls:</label>
+                <input class="w3-input w3-border w3-round w3-animate-input" type="text" id="httpsUrls" name="httpsUrls" placeholder="Should the URLs be HTTPS or HTTP? They're HTTPS by default now. Possible Values: true/false">
+                <br>
+                <button type="submit" class="w3-btn w3-white w3-border w3-border-green w3-round-xlarge">Submit</button>
+            </form>
+        </div>
+    #endexport
+#endextend
