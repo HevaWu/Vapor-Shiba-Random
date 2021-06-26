@@ -1,0 +1,5 @@
+#extend("base"):
+    #export("title"):
+    Hi, Shiba List!
+    #endexport
+#endextend

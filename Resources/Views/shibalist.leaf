@@ -1,8 +1,4 @@
-#extend("base"):
-    #export("title"):
-    Hi, Shiba List!
-    #endexport
-
+#extend("shibalistBase"):
     #export("body"):
         #for(url in list):
             <li>
