@@ -4,7 +4,7 @@
     #endexport
 
     #export("body"):
-        #for(url in shibaLists):
+        #for(url in list):
             <li>
             <a href=#(url.urlString)>#(url.urlString)</a>
             </li>

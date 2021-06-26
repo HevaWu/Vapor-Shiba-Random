@@ -7,6 +7,8 @@
 
 import Foundation
 
-struct ShibaImageURLList {
+struct ShibaImageURLList: Codable {
     let list: [ShibaImageURL]
+    
+    static let empty = ShibaImageURLList(list: [])
 }
